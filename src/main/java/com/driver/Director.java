@@ -7,9 +7,7 @@ public class Director {
     private double imdbRating;
 
     public Director() {
-        this.name = null;
-        this.imdbRating = 0;
-        this.numberOfMovies = 0;
+
     }
 
     public Director(String name, int numberOfMovies, double imdbRating) {

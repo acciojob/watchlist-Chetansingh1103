@@ -7,9 +7,7 @@ public class Movie {
     private double imdbRating;
 
     public Movie() {
-        this.durationInMinutes = 0;
-        this.imdbRating = 0;
-        this.name = null;
+
     }
 
     public Movie(String name, int durationInMinutes, double imdbRating) {
